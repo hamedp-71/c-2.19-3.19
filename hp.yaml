@@ -8,7 +8,7 @@ keep-alive-idle: 30
 keep-alive-interval: 30
 unified-delay: false
 geo-auto-update: true
-geo-update-interval: 48
+geo-update-interval: 168
 external-controller: '127.0.0.1:9090'
 external-ui-url: 'https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip'
 external-ui: ui
@@ -211,7 +211,7 @@ proxy-groups:
     type: url-test
     url: "https://www.gstatic.com/generate_204"
     interval: 600
-    tolerance: 100
+    tolerance: 50
     proxies:
       - "🇮🇷 hamedp71 - IPv4-1"
       - "🇩🇪 hamedp71 - IPv4-1"
